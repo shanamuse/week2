@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int week;
+    char pay;
+    float dollars;
+
+    printf("Week of year?\n");
+    scanf("%d", &week);
+
+    printf("Pay week?\n");
+    scanf(" %c", &pay);
+
+    printf("Dollars spent?\n");
+    scanf("%f", &dollars);
+
+    printf("\nWeek: %d, Pay week: %c, Dollars spent: $%.2f\n", week, pay, dollars);
+
+    return 0;
+}
