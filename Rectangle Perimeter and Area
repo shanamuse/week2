@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int width, height, perimeter, area;
+
+    printf("Rectangle Calculator:\n");
+    printf("---------------------\n\n");
+
+    printf("What is the width of the rectangle?\n");
+    scanf("%d", &width);
+    printf("What is the height of the rectangle?\n");
+    scanf("%d", &height);
+
+    perimeter = 2 * (width + height);
+    area = width * height;
+
+    printf("\nThe rectangle's perimeter is: %d\n", perimeter);
+    printf("The rectangle's area is: %d\n", area);
+
+    return 0;
+}
