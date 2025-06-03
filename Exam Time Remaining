@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int minutesPassed, minutesLeft;
+
+    printf("How many minutes since the start of the exam?\n");
+    scanf("%d", &minutesPassed);
+
+    minutesLeft = 150 - minutesPassed;
+
+    printf("You have %d minutes left!!!\n", minutesLeft);
+
+    return 0;
+}
