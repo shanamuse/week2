@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int points_achieved, points_left;
+
+    printf("How many points have you achieved thus far?\n");
+    scanf("%d", &points_achieved);
+
+    points_left = 360 - points_achieved;
+
+    printf("You have %d points left!!!\n", points_left);
+
+    return 0;
+}
