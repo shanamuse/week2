@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2, product;
+
+    printf("Please enter a whole number:\n");
+    scanf("%d", &num1);
+    printf("Please enter another whole number:\n");
+    scanf("%d", &num2);
+
+    product = num1 * num2;
+
+    printf("%d times %d is: %d\n", num1, num2, product);
+
+    return 0;
+}
