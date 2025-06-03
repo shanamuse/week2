@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    float base1, base2, height, area;
+
+    printf("What is the length of the trapezium's first base? ");
+    scanf("%f", &base1);
+    printf("What is the length of the trapezium's second base? ");
+    scanf("%f", &base2);
+    printf("What is the height of the trapezium?\n");
+    scanf("%f", &height);
+
+    area = (base1 + base2) * height / 2;
+
+    printf("The trapezium's area is: %.2f\n", area);
+
+    return 0;
+}
