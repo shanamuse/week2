@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int number, cube;
+
+    printf("Please enter a whole number:\n");
+    scanf("%d", &number);
+
+    cube = number * number * number;
+
+    printf("%d cubed is: %d\n", number, cube);
+
+    return 0;
+}
