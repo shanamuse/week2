@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int week;
+    char late;
+    float attendance;
+
+    printf("Week?\n");
+    scanf("%d", &week);
+    printf("Late?\n");
+    scanf(" %c", &late);
+    printf("Attendance percentage?\n");
+    scanf("%f", &attendance);
+
+    printf("\nWeek: %d, Late: %c, Attendance percentage: %.2f%%\n", week, late, attendance);
+
+    return 0;
+}
