@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    float length, width, height, volume;
+
+    printf("What is the length of the cuboid?\n");
+    scanf("%f", &length);
+    printf("What is the width of the cuboid?\n");
+    scanf("%f", &width);
+    printf("What is the height of the cuboid?\n\n");
+    scanf("%f", &height);
+
+    volume = length * width * height;
+
+    printf("The cuboid's volume is: %.2f\n", volume);
+
+    return 0;
+}
