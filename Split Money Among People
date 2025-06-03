@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float amount, perPerson;
+    int people;
+
+    printf("How much to share?\n ");
+    scanf("%f", &amount);
+    printf("How many people?\n");
+    scanf("%d", &people);
+
+    perPerson = amount / people;
+
+    printf("\nEveryone will have $%.2f\n", perPerson);
+
+    return 0;
+}
