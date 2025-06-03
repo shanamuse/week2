@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c, x, fx;
+
+    printf("Quadratic Evaluator : f(x) = ax^2 + bx + c\n");
+    printf("------------------------------------------\n");
+    printf("Set the a value\n> ");
+    scanf("%d", &a);
+    printf("Set the b value\n> ");
+    scanf("%d", &b);
+    printf("Set the c value\n> ");
+    scanf("%d", &c);
+    printf("Evaluate f(x) when x is\n> ");
+    scanf("%d", &x);
+
+    fx = a * x * x + b * x + c;
+
+    printf("When x is %d, f(x) is %d.\n", x, fx);
+
+    return 0;
+}
