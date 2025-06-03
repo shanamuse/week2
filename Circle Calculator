@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+    float radius, doubled_radius, area, circumference;
+    const float PI = 3.14159f;
+
+    printf("Circle Calculator:\n");
+    printf("******************\n\n");
+
+    printf("Please enter the radius of a circle:\n");
+    printf("Calculating...\n\n");
+    scanf("%f", &radius);
+
+    area = PI * radius * radius;
+    circumference = 2 * PI * radius;
+
+    printf("A circle with radius %.5f has:\n\n", radius);
+    printf("  - An area of: %.5f\n", area);
+    printf("  - A circumference of: %.5f\n\n", circumference);
+
+    doubled_radius = radius * 2;
+    area = PI * doubled_radius * doubled_radius;
+    circumference = 2 * PI * doubled_radius;
+
+    printf("Also, did you know a circle with radius %.5f has:\n\n", doubled_radius);
+    printf("  - An area of: %.5f\n", area);
+    printf("  - A circumference of: %.5f\n", circumference);
+
+    return 0;
+}
