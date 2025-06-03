@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float area, given_axis, other_axis;
+    const float PI = 3.14159f;
+
+    printf("What is the ellipse's area? \n");
+    scanf("%f", &area);
+    printf("What is the length of one of the ellipse's axes? \n");
+    scanf("%f", &given_axis);
+
+    other_axis = area / (given_axis * PI);
+
+    printf("The ellipse's other axis is: %.2f\n", other_axis);
+
+    return 0;
+}
